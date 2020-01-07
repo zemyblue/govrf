@@ -1,4 +1,4 @@
-package main // import "github.com/zemyblue/vrf-go"
+package main // import "vrf-go"
 
 import (
 	"encoding/hex"
