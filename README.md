@@ -1,4 +1,4 @@
-# VRF-go
+# goVRF
 This is VRF library of golang version 
 I forked [algorand's libsodium](https://github.com/algorand/libsodium) and extract only vrf module from go-algorand.
 
