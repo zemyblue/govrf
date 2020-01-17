@@ -1,11 +1,11 @@
-package main // import "vrf-go"
+package main // import "govrf"
 
 import (
 	"encoding/hex"
 	"fmt"
 )
 import (
-	vrf "vrf-go/crypto"
+	vrf "govrf/crypto"
 )
 
 func toHexString(str []byte) string {
