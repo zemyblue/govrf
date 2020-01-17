@@ -1,3 +1,3 @@
-module vrf-go
+module govrf
 
 go 1.13
