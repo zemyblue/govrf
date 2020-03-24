@@ -29,7 +29,7 @@ func TestVrfPrivkey_Prove(t *testing.T) {
 	var ok3, output2 = pk.Verify(proof, message)
 	t.Logf("output2: %s, ok: %t", toString(output2[:]), ok3)
 
-	if bytes.Compare(output[:], output2[:]) != 0 {
+	if !bytes.Equal(output[:], output2[:]) {
 		t.Error("output not matches")
 	}
 }

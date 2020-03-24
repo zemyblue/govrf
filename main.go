@@ -1,4 +1,4 @@
-package main // import "govrf"
+package main // import "github.com/zemyblue/govrf"
 
 import (
 	"encoding/hex"
